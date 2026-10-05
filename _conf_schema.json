@@ -1,0 +1,16 @@
+{
+  "github_token": {
+    "description": "GitHub Personal Access Token",
+    "type": "string",
+    "hint": "用于调用 GitHub API 的个人访问令牌（PAT）。需要 repo, workflow 等相关权限。",
+    "default": "",
+    "obvious_hint": true
+  },
+  "api_base": {
+    "description": "GitHub API Base URL",
+    "type": "string",
+    "hint": "GitHub API 根地址，默认为官方 https://api.github.com。若使用 Enterprise 或反代可在此自定义。",
+    "default": "https://api.github.com",
+    "obvious_hint": false
+  }
+}

@@ -1,8 +1,7 @@
 name: astrbot_plugin_github_tool
 display_name: GitHub 工程协作工具
-desc: 提供 GitHub API 常用调用能力，支持创建仓库、原子多文件提交、工作流监控、日志获取、Release 发布与 Issue/PR 管理
-version: 0.3.0
+desc: "GitHub 工程协作工具：原子多文件提交（含删除）、文件读取、Actions 监控与错误日志聚焦、Release 发布与制品上传、Issue/PR 管理，内置分支保护、仓库白名单与请求重试"
+version: 0.4.0
 author: 日海 & 橙子汐
 repo: "https://github.com/wuyaomin248-stack/astrbot_plugin_github_tool"
 astrbot_version: ">=4.0.0"
-support_platforms: [aiocqhttp, qq_official]
